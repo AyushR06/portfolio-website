@@ -1,0 +1,1069 @@
+
+
+.heading{
+    background-color: black;
+    height: 250px;
+    width: auto;
+    margin:0;
+    display: flex;
+    position: relative;
+}
+.main{
+    display: flex;
+    width: 100%;
+}
+body{
+    margin: 0;
+    background-color: #e0dedd;
+}
+.photo{
+    height: 190px;
+    width: 180px;
+    position: relative;
+    margin-left: 45%;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.photo img{
+    margin-top: 22vh;
+    height: 190px;
+    width: 180px;
+    position: absolute;
+    border-radius: 50%;
+    box-shadow: 3px 3px 5px 1px rgba(0, 0, 0, 15),
+    -3px -3px 5px -1px rgba(255,255 ,255,0.1)  
+   
+}
+
+
+
+
+.sign img{
+    height: 80px;
+    width:300px;
+    font-family: 'Belanosima', sans-serif;
+    font-family: 'Kablammo', cursive;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Lovers Quarrel', cursive;
+    font-family: 'Merriweather', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Sacramento', cursive;
+    font-family: 'Special Elite', cursive;
+    font-family: 'Ysabeau Infant', sans-serif;
+    position: absolute;
+    top: 30px;
+    margin-left: 38%;
+    
+    
+
+}
+nav{
+    width:500px;
+    margin-top: 2vh;
+    margin-bottom: 10vh;
+    margin-left: 30%;
+}
+nav a{
+    text-decoration: none;
+    color: #3C2A21;
+
+}
+
+nav ul{
+    color: #3C2A21;
+    margin-top: 150px;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items:center;
+    text-decoration: none;
+    font-family: 'Belanosima', sans-serif;
+    font-family: 'Kablammo', cursive;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Lovers Quarrel', cursive;
+    font-family: 'Merriweather', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Sacramento', cursive;
+    font-family: 'Special Elite', cursive;
+    font-family: 'Ysabeau Infant', sans-serif;
+    font-weight:600;
+    font-size: 1.2rem;
+
+}
+nav ul :hover{
+    color: #C69749;
+    font-size: 0.9em;
+    line-height: normal;
+    cursor:pointer;
+}
+/* Dropdown Button */
+.dropbtn {
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display:block;
+    visibility: hidden;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #010101;
+    min-width: 16px;
+    border-radius: 5px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    
+}
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: rgb(251, 247, 247);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #cac6c6;}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {background-color: #c0bbbb;}
+
+.icons{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: -60%;
+}
+ .icons .fa-instagram{
+    height:40px;
+    width: 40px;
+    background-color: black;
+    text-decoration: none;
+    color: white;
+    position: absolute;
+    margin-top: 120px;
+    margin-left: 60px;
+    font-size: 1.7rem;
+    display: inline-flex; 
+}
+.icons .fa-instagram:hover{
+    opacity: 70%;
+    font-size: 1.5rem;
+}
+.icons .fa-twitter{
+    height:40px;
+    width: 40px;
+    background-color: black;
+    text-decoration: none;
+    color: white;
+    position: absolute;
+    margin-top: 120px;
+    margin-left: 100px;
+    font-size: 1.7rem;
+    display: inline-flex;
+}
+.icons .fa-twitter:hover{
+    opacity: 70%;
+    font-size: 1.5rem;
+}
+.icons .fa-whatsapp{
+    height:40px;
+    width: 40px;
+    background-color: black;
+    text-decoration: none;
+    color: white;
+    position: absolute;
+    margin-top: 120px;
+    margin-left: 140px;
+    font-size: 1.7rem;
+    display: inline-flex;
+}
+.icons .fa-whatsapp:hover{
+    opacity: 70%;
+    font-size: 1.5rem;
+}
+.icons .fa-facebook{
+    height:40px;
+    width: 40px;
+    background-color: black;
+    text-decoration: none;
+    color: white;
+    position: absolute;
+    margin-top: 120px;
+    margin-left: 180px;
+    font-size: 1.7rem;
+    display: inline-flex;
+}
+.icons .fa-facebook:hover{
+    opacity: 70%;
+    font-size: 1.5rem;
+}
+.icons .fa-linkedin{
+    height:40px;
+    width: 40px;
+    background-color: black;
+    text-decoration: none;
+    color: white;
+    position: absolute;
+    margin-top: 120px;
+    margin-left: 215px;
+    font-size: 1.7rem;
+    display: inline-flex;
+}
+.icons .fa-linkedin:hover{
+    opacity: 70%;
+    font-size: 1.5rem;
+}
+ .btn .glow-on-hover{
+    position: absolute;
+    outline:white 1px;
+    margin-left:970px; 
+    margin-top: 110px;
+    width: 220px;
+    height: 50px;
+    border: none;
+    outline: none;
+    color: #fff;
+    background: #111;
+    cursor: pointer;
+    z-index: 0;
+    border-radius: 10px;
+    font-family: 'Belanosima', sans-serif;
+    font-family: 'Kablammo', cursive;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Lovers Quarrel', cursive;
+    font-family: 'Merriweather', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Sacramento', cursive;
+    font-family: 'Special Elite', cursive;
+    font-family: 'Teko', sans-serif;
+    font-family: 'Ysabeau Infant', sans-serif;
+}
+.glow-on-hover:before {
+    content: '';
+    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+    position: absolute;
+    top: -2px;
+    left:-2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing 20s linear infinite;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+    border-radius: 10px;
+}
+
+.glow-on-hover:active {
+    color: #000;
+}
+
+.glow-on-hover:active:after {
+    background: transparent;
+}
+
+.glow-on-hover:hover:before {
+    opacity: 1;
+}
+
+.glow-on-hover:after {
+    z-index: -1;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #111;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+}
+
+@keyframes glowing {
+    0% { background-position: 0 0; }
+    50% { background-position: 400% 0; }
+    100% { background-position: 0 0; }
+}
+.introduction p{
+    display: flex;
+    justify-content: center;
+    align-items:self-start;
+    width: 700px;
+    height: 300px;
+    align-self:safe;
+    margin-left: 25%;
+    font-weight: 600;
+    font-size: 25px;
+    font-family: 'Belanosima', sans-serif;
+    font-family: 'Kablammo', cursive;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Lovers Quarrel', cursive;
+    font-family: 'Merriweather', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Sacramento', cursive;
+    font-family: 'Special Elite', cursive;
+    font-family: 'Teko', sans-serif;
+    font-family: 'Ysabeau Infant', sans-serif;
+}
+.container-1{
+    height: 700px;
+}
+
+
+hr{
+    border:dotted #7c7a78 6px;
+    border-bottom: none;
+    width:4%;
+    margin:50px auto;
+}
+
+/*          ---------------------------------------------------------                    */
+
+
+.container-2{
+    
+    width: auto;
+    height: 500px;
+}
+.container-2 >h2{
+    position: absolute;
+    color: #869f9f;
+    margin-top: 60px;
+    margin-left:30px;
+    font-size: 2.5rem;
+    font-weight: 800;
+    font-family: 'Belanosima', sans-serif;
+    font-family: 'Kablammo', cursive;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Lovers Quarrel', cursive;
+    font-family: 'Merriweather', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Sacramento', cursive;
+    font-family: 'Special Elite', cursive;
+    font-family: 'Teko', sans-serif;
+    font-family: 'Ysabeau Infant', sans-serif;
+}
+.container-2 img{
+    position: absolute;
+    margin-left: 850px;
+    margin-top: 10px;
+    height: 450px;
+    width: 400px;
+   
+}
+.skills{
+    color: #908079;
+    font-family: 'Bagel Fat One', cursive;
+    font-family: 'Belanosima', sans-serif;
+    font-family: 'Kablammo', cursive;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Lovers Quarrel', cursive;
+    font-family: 'Merriweather', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Righteous', cursive;
+    font-family: 'Sacramento', cursive;
+    font-family: 'Special Elite', cursive;
+    font-family: 'Teko', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Ysabeau Infant', sans-serif;
+}
+.skills-1 h3{
+    position: absolute;
+    margin-top:180px;
+    margin-left: 40px;
+    
+
+}
+.skills-1 .progress-bar{
+    position: absolute;
+    margin-left: 220px;
+    margin-top: 185px;
+    height: 10px;
+     width: 50vw;
+    background-color: white;
+    border-radius: 5px;
+}
+.skills-1 .progress-bar div{
+    position: absolute;
+    height: 10px;
+    width: 0;
+    background-color:#3e98e1;
+    border-radius: 5px;
+
+}
+.html{
+    animation: html 1.5s linear forwards;
+    -webkit-animation: html 1.5s linear forwards;
+}
+@keyframes html {
+    100%{
+        width:76%;
+    }
+    
+}
+.skills-2 h3{
+    position: absolute;
+    margin-top:230px;
+    margin-left: 40px;
+}
+.skills-2 .progress-bar{
+    position: absolute;
+    margin-left: 220px;
+    margin-top: 235px;
+    height: 10px;
+    width: 50vw;
+    background-color:white;
+    border-radius: 5px;
+   
+}
+.skills-2 .progress-bar div{
+    position: absolute;
+    height: 10px;
+    width: 0;
+    background-color: #3e98e1;
+    border-radius: 5px;
+    
+}
+.css{
+    animation: css 1.5s linear forwards;
+    -webkit-animation: css 1.5s linear forwards;
+}
+@keyframes css{
+    100%{
+        width:50%;
+    }
+}
+.skills-3 h3{
+    position: absolute;
+    margin-top:280px;
+    margin-left: 40px;
+}
+.skills-3 .progress-bar{
+    position: absolute;
+    margin-left: 220px;
+    margin-top: 285px;
+    height: 10px;
+    width: 50vw;
+    background-color: white;
+    border-radius: 5px;
+   
+}
+.skills-3 .progress-bar div{
+    position: absolute;
+    height: 10px;
+    width: 0;
+    background-color: #3e98e1;
+    border-radius: 5px;
+    
+}
+.javascript{
+    animation: javascript 1.5s linear forwards;
+    -webkit-animation: javascript 1.5s linear forwards;
+}
+@keyframes javascript{
+    100%{
+        width:20%;
+    }
+}
+.skills-4 h3{
+    position: absolute;
+    margin-top:330px;
+    margin-left: 40px;
+}
+.skills-4 .progress-bar{
+    position: absolute;
+    margin-left: 220px;
+    margin-top: 335px;
+    height: 10px;
+    width: 50vw;
+    background-color: white;
+    border-radius: 5px;
+    
+}
+.skills-4 .progress-bar div{
+    position: absolute;
+    height: 10px;
+    width:0;
+    background-color: #3e98e1;
+    border-radius: 5px;
+   
+}
+.design{
+    animation: design 1.5s linear forwards;
+    -webkit-animation: design 1.5s linear forwards;
+}
+@keyframes design{
+    100%{
+        width:50%;
+    }
+}
+
+/*           -------------------------------------------------------------------------                   */
+
+.container-3 {
+    height: 500px;
+    width: 1000px;
+}
+.services h2{
+    color: #897562;
+    font-size: 40px;
+    margin-left: 30px;
+    font-family: 'Aoboshi One', serif;
+    font-family: 'Bagel Fat One', cursive;
+    font-family: 'Belanosima', sans-serif;
+    font-family: 'Kablammo', cursive;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Lovers Quarrel', cursive;
+    font-family: 'Merriweather', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Righteous', cursive;
+    font-family: 'Sacramento', cursive;
+    font-family: 'Special Elite', cursive;
+    font-family: 'Teko', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Ysabeau Infant', sans-serif;
+}
+.grid{
+    margin-left:10%;
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+
+}
+.web-design{
+    height: 200px;
+    width: 400px;
+
+}
+.web-design h3{
+    margin-top: 10px;
+    color: #4e4b49;
+    font-size: 25px;
+    font-family: 'Aoboshi One', serif;
+    font-family: 'Bagel Fat One', cursive;
+    font-family: 'Belanosima', sans-serif;
+    font-family: 'Kablammo', cursive;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Lobster', cursive;
+    font-family: 'Lovers Quarrel', cursive;
+    font-family: 'Merriweather', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Righteous', cursive;
+    font-family: 'Sacramento', cursive;
+    font-family: 'Special Elite', cursive;
+    font-family: 'Teko', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Ysabeau Infant', sans-serif;
+}
+.web-design p{
+    font-family: 'Belanosima', sans-serif;
+    font-family: 'Kablammo', cursive;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Lovers Quarrel', cursive;
+    font-family: 'Merriweather', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Sacramento', cursive;
+    font-family: 'Special Elite', cursive;
+    font-family: 'Ysabeau Infant', sans-serif;
+    font-weight:600;
+    font-size: 1.1rem;
+
+}
+.web-dev{
+    height: 200px;
+    width: 400px;
+
+
+}
+.web-dev h3{
+    color: #4e4b49;
+    font-size: 25px;
+    font-family: 'Aoboshi One', serif;
+    font-family: 'Bagel Fat One', cursive;
+    font-family: 'Belanosima', sans-serif;
+    font-family: 'Kablammo', cursive;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Lobster', cursive;
+    font-family: 'Lovers Quarrel', cursive;
+    font-family: 'Merriweather', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Righteous', cursive;
+    font-family: 'Sacramento', cursive;
+    font-family: 'Special Elite', cursive;
+    font-family: 'Teko', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Ysabeau Infant', sans-serif;
+
+}
+.web-dev p{
+    font-family: 'Belanosima', sans-serif;
+    font-family: 'Kablammo', cursive;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Lovers Quarrel', cursive;
+    font-family: 'Merriweather', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Sacramento', cursive;
+    font-family: 'Special Elite', cursive;
+    font-family: 'Ysabeau Infant', sans-serif;
+    font-weight:600;
+    font-size: 1.1rem;
+}
+
+.html-css{
+    height: 200px;
+    width: 400px;
+}
+.html-css h3{
+    color: #4e4b49;
+    font-size: 25px;
+    font-family: 'Aoboshi One', serif;
+    font-family: 'Bagel Fat One', cursive;
+    font-family: 'Belanosima', sans-serif;
+    font-family: 'Kablammo', cursive;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Lobster', cursive;
+    font-family: 'Lovers Quarrel', cursive;
+    font-family: 'Merriweather', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Righteous', cursive;
+    font-family: 'Sacramento', cursive;
+    font-family: 'Special Elite', cursive;
+    font-family: 'Teko', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Ysabeau Infant', sans-serif;
+
+}
+.html-css p{
+    font-family: 'Belanosima', sans-serif;
+    font-family: 'Kablammo', cursive;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Lovers Quarrel', cursive;
+    font-family: 'Merriweather', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Sacramento', cursive;
+    font-family: 'Special Elite', cursive;
+    font-family: 'Ysabeau Infant', sans-serif;
+    font-weight:600;
+    font-size: 1.1rem;
+}
+.logo-and-design{
+    height: 200px;
+    width: 400px;
+
+}
+.logo-and-design h3{
+    
+    font-size: 25px;
+    color: #4e4b49;
+    font-family: 'Aoboshi One', serif;
+    font-family: 'Bagel Fat One', cursive;
+    font-family: 'Belanosima', sans-serif;
+    font-family: 'Kablammo', cursive;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Lobster', cursive;
+    font-family: 'Lovers Quarrel', cursive;
+    font-family: 'Merriweather', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Righteous', cursive;
+    font-family: 'Sacramento', cursive;
+    font-family: 'Special Elite', cursive;
+    font-family: 'Teko', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Ysabeau Infant', sans-serif;
+
+}
+.logo-and-design p{
+    font-family: 'Belanosima', sans-serif;
+    font-family: 'Kablammo', cursive;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Lovers Quarrel', cursive;
+    font-family: 'Merriweather', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Sacramento', cursive;
+    font-family: 'Special Elite', cursive;
+    font-family: 'Ysabeau Infant', sans-serif;
+    font-weight:600;
+    font-size: 1.1rem;
+}
+
+/*                       ----------------------------------------                         */
+.container-4{
+    width: auto;
+    height: 500px;
+    display: flex;
+
+}
+.container-4 h2{
+    position: absolute;
+    margin-top: 30px;
+    color:#756857 ;
+    margin-left: 30px;
+    font-size: 40px;
+    margin-left: 30px;
+    font-family: 'Aoboshi One', serif;
+    font-family: 'Bagel Fat One', cursive;
+    font-family: 'Belanosima', sans-serif;
+    font-family: 'Kablammo', cursive;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Lovers Quarrel', cursive;
+    font-family: 'Merriweather', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Righteous', cursive;
+    font-family: 'Sacramento', cursive;
+    font-family: 'Special Elite', cursive;
+    font-family: 'Teko', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Ysabeau Infant', sans-serif;
+}
+.container-4 .intro{
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 30px;
+    font-family: 'Belanosima', sans-serif;
+    font-family: 'Kablammo', cursive;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Lovers Quarrel', cursive;
+    font-family: 'Merriweather', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Sacramento', cursive;
+    font-family: 'Special Elite', cursive;
+    font-family: 'Ysabeau Infant', sans-serif;
+    font-weight:600;
+    color:#6a787a;
+    font-size: 20px;
+}
+.container-4 .vertical-line{
+    border-left: 6px dotted #9cdbe7  ;
+    height: 200px;
+    margin-left: 48px;
+    position: relative;
+    margin-top: 200px;
+}
+.container-4 .vertical-line ul{
+    list-style: none;
+    position: relative;
+    line-height: 15vh;
+    font-family: 'Belanosima', sans-serif;
+    font-family: 'Kablammo', cursive;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Lovers Quarrel', cursive;
+    font-family: 'Merriweather', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Sacramento', cursive;
+    font-family: 'Special Elite', cursive;
+    font-family: 'Ysabeau Infant', sans-serif;
+    font-weight:600;
+    color: #6a9ea0;
+    font-size: 1.5rem;
+}
+
+/*                 -----------------------------------------------                    */
+
+.container-5{
+    width: auto;
+    height: 300px;
+}
+.container-5 .contact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    color: #4e4b49;
+    font-family: 'Acme', sans-serif;
+    font-family: 'Aoboshi One', serif;
+    font-family: 'Bagel Fat One', cursive;
+    font-family: 'Belanosima', sans-serif;
+    font-family: 'Kablammo', cursive;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Lobster', cursive;
+    font-family: 'Lovers Quarrel', cursive;
+    font-family: 'Merriweather', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Righteous', cursive;
+    font-family: 'Sacramento', cursive;
+    font-family: 'Special Elite', cursive;
+    font-family: 'Teko', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Ysabeau Infant', sans-serif;
+}
+.container-5 .contact-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 45%;
+    font-size: 1.8rem;
+    font-weight: 600;
+    box-shadow: 2px 2px 2px;
+    background-color: #e7e5e2;
+    border: none;
+    border-radius: 6px;
+    font-family: 'Acme', sans-serif;
+    font-family: 'Aoboshi One', serif;
+    font-family: 'Bagel Fat One', cursive;
+    font-family: 'Belanosima', sans-serif;
+    font-family: 'Kablammo', cursive;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Lobster', cursive;
+    font-family: 'Lovers Quarrel', cursive;
+    font-family: 'Merriweather', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Righteous', cursive;
+    font-family: 'Sacramento', cursive;
+    font-family: 'Saira', sans-serif;
+    font-family: 'Special Elite', cursive;
+    font-family: 'Teko', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Ysabeau Infant', sans-serif;
+    
+}
+.container-5 a{
+    text-decoration: none;
+    color: #65605a;
+}
+
+/*                   -------------------------------------------------                    */
+
+.container-6{
+    background-color: #000;
+    width: auto;
+    height: 100px;
+}
+.container-6 h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    color: white;
+    font-weight: 700;
+    padding-top: 3px;
+    font-family: 'Belanosima', sans-serif;
+    font-family: 'Kablammo', cursive;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Lovers Quarrel', cursive;
+    font-family: 'Merriweather', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Sacramento', cursive;
+    font-family: 'Special Elite', cursive;
+    font-family: 'Ysabeau Infant', sans-serif;
+    font-weight:600;
+}
+.container-6 h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 1.3rem;
+    font-family: 'Belanosima', sans-serif;
+    font-family: 'Kablammo', cursive;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Lovers Quarrel', cursive;
+    font-family: 'Merriweather', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Sacramento', cursive;
+    font-family: 'Special Elite', cursive;
+    font-family: 'Ysabeau Infant', sans-serif;
+    font-weight:600;
+}
+
+
+
+
+@media (max-width:600px) {
+    html,body{
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+      
+        
+    }
+    .main{
+        width: 200%;
+        margin: 0%;
+        padding: 0%;
+        font-size: 3rem;
+    
+        
+        
+    }
+    .heading{
+        height: 200px;
+       
+    }
+    .container-1{
+        margin-bottom: 0;
+    }
+    
+    .container-1 .icons{
+        visibility: hidden
+    }
+    .container-1 p{
+        font-size: x-small;
+    }
+    .sign img{
+        display: flex;
+        width: 50%;
+        height: 50%;
+        margin-left: 20%;
+        justify-content: center;
+        align-items:flex-start;
+    }
+
+    .btn{
+        display: flex;
+        justify-content:flex-end;
+        align-items: center;
+        visibility: visible;
+        margin-left: 60vw;
+        
+        
+    }
+    .photo{
+        margin-top: 30vh;
+        margin-left: 20vw;
+        visibility: visible;
+    }
+    nav ul{
+        visibility:visible;
+        width:fit-content;
+        gap: 9px;
+        margin-top: -1.5%;
+        display: flex;
+        justify-content:flex-start;
+        align-items:flex-start;
+        margin-left: -27vw;
+    }
+   
+    .container-3{
+        height: fit-content;
+        margin-left: -4vw;
+        width:max-content;
+        
+    }
+    .container-2{
+        display: inline;
+        height: fit-content;
+        margin-left: -8%;
+        vertical-align: 0%;
+        margin-bottom: 0;
+        background-color: #00ffd5;
+    }
+    .container-2 h2{
+        width: fit-content;
+        position: relative;
+        display: flex;
+        margin-top: 0;
+        margin-left: -1%;
+        
+       
+    }
+    .container-2 .skills .progress-bar{
+        position: relative;
+        display:inline-flex;
+        flex-wrap: wrap-reverse;
+        vertical-align:text-top;
+        margin-top: -1px;
+    }
+    .container-2 h3{
+        position: relative;
+        margin-bottom: 0;
+    }
+    .container-3 p{
+        font-size: 15px;
+        margin-left: -3vw;
+        padding: 2px;
+        word-wrap: break-word;
+        
+    }
+    /*.container-3 .web-design{ 
+        grid-column: span 2;
+        
+    }
+    .container-3 .web-dev{
+        grid-column:  span 2;
+    }
+    .container-3 .html-css{
+        grid-column: span 2;
+    }
+    */
+    .container-3 .grid{
+        display: flex;
+        flex-wrap: wrap;
+        padding:auto;
+        flex-direction: column;
+        width: auto;
+    
+    }
+    .introduction p{
+        width: 75%;
+        height: 50%;
+        font-size: 20px;
+        margin-left: 50px;
+        
+
+    }
+    .container-4{
+        position: relative;
+       
+    }
+    .container-4 h2 p{
+        width: 100%;
+        font-size: 20px;
+        position: absolute;
+    }
+    .container-4 h2 .intro{
+        display: flex;
+        position: relative;
+        width: 100%;
+    } 
+    .container-5 .contact-btn{
+        display: flex;
+        justify-content: center;
+        margin-left: 30vw;
+    }
+       
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+    
+
+
